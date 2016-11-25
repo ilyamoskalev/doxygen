@@ -1,0 +1,31 @@
+\begin{theindex}
+
+  \item {$\sim$queue}
+    \subitem {queue}, \hyperpage{6}
+
+  \indexspace
+
+  \item {add}
+    \subitem {queue}, \hyperpage{6}
+
+  \indexspace
+
+  \item {del}
+    \subitem {queue}, \hyperpage{6}
+
+  \indexspace
+
+  \item {get}
+    \subitem {queue}, \hyperpage{6}
+
+  \indexspace
+
+  \item {queue}, \hyperpage{5}
+    \subitem {$\sim$queue}, \hyperpage{6}
+    \subitem {add}, \hyperpage{6}
+    \subitem {del}, \hyperpage{6}
+    \subitem {get}, \hyperpage{6}
+    \subitem {queue}, \hyperpage{5}
+  \item {queue.\+h}, \hyperpage{7}
+
+\end{theindex}

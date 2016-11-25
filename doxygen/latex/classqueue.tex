@@ -1,0 +1,102 @@
+\hypertarget{classqueue}{}\section{Класс queue}
+\label{classqueue}\index{queue@{queue}}
+
+
+Класс -\/ очередь  
+
+
+
+
+{\ttfamily \#include $<$queue.\+h$>$}
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classqueue_a3cf733b42a5f7782ec16df19c9c1ddfd}{queue} (const std\+::size\+\_\+t=100)
+\item 
+\hyperlink{classqueue_aa6d7a7582d8dee9ccac3a610f0729737}{queue} (const \hyperlink{classqueue}{queue} \&)
+\item 
+void \hyperlink{classqueue_aa9e923606348d881128c6823152e62f8}{add} (const int data)
+\item 
+void \hyperlink{classqueue_a7f0d385005897a0b21e6385ce22079a5}{del} ()
+\item 
+int \hyperlink{classqueue_abb246e03c3b40a8e78479ef6b488c847}{get} () const 
+\item 
+\hyperlink{classqueue_ae627ff3c7e0015717518229b43b023a1}{$\sim$queue} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Класс -\/ очередь 
+
+Данный класс описывает методы структуры данных -\/ очередь 
+
+\subsection{Конструктор(ы)}
+\index{queue@{queue}!queue@{queue}}
+\index{queue@{queue}!queue@{queue}}
+\subsubsection[{\texorpdfstring{queue(const std\+::size\+\_\+t=100)}{queue(const std::size_t=100)}}]{\setlength{\rightskip}{0pt plus 5cm}queue\+::queue (
+\begin{DoxyParamCaption}
+\item[{const std\+::size\+\_\+t}]{ = {\ttfamily 100}}
+\end{DoxyParamCaption}
+)}\hypertarget{classqueue_a3cf733b42a5f7782ec16df19c9c1ddfd}{}\label{classqueue_a3cf733b42a5f7782ec16df19c9c1ddfd}
+Конструктор класса по -\/ умолчанию. Начальный размер очереди -\/ 10 элементов 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em size} & Размер очереди \\
+\hline
+\end{DoxyParams}
+\index{queue@{queue}!queue@{queue}}
+\index{queue@{queue}!queue@{queue}}
+\subsubsection[{\texorpdfstring{queue(const queue \&)}{queue(const queue &)}}]{\setlength{\rightskip}{0pt plus 5cm}queue\+::queue (
+\begin{DoxyParamCaption}
+\item[{const {\bf queue} \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classqueue_aa6d7a7582d8dee9ccac3a610f0729737}{}\label{classqueue_aa6d7a7582d8dee9ccac3a610f0729737}
+Конструктор копирования 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em copy} & Копируемый объект \\
+\hline
+\end{DoxyParams}
+\index{queue@{queue}!````~queue@{$\sim$queue}}
+\index{````~queue@{$\sim$queue}!queue@{queue}}
+\subsubsection[{\texorpdfstring{$\sim$queue()}{~queue()}}]{\setlength{\rightskip}{0pt plus 5cm}queue\+::$\sim$queue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classqueue_ae627ff3c7e0015717518229b43b023a1}{}\label{classqueue_ae627ff3c7e0015717518229b43b023a1}
+Деструктор класса. Освобождает память от массива элементов. 
+
+\subsection{Методы}
+\index{queue@{queue}!add@{add}}
+\index{add@{add}!queue@{queue}}
+\subsubsection[{\texorpdfstring{add(const int data)}{add(const int data)}}]{\setlength{\rightskip}{0pt plus 5cm}void queue\+::add (
+\begin{DoxyParamCaption}
+\item[{const int}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{classqueue_aa9e923606348d881128c6823152e62f8}{}\label{classqueue_aa9e923606348d881128c6823152e62f8}
+Добавляет элемент в очередь 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em data} & Значение нового элемента \\
+\hline
+\end{DoxyParams}
+\index{queue@{queue}!del@{del}}
+\index{del@{del}!queue@{queue}}
+\subsubsection[{\texorpdfstring{del()}{del()}}]{\setlength{\rightskip}{0pt plus 5cm}void queue\+::del (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classqueue_a7f0d385005897a0b21e6385ce22079a5}{}\label{classqueue_a7f0d385005897a0b21e6385ce22079a5}
+Удаляет элемент из очереди \index{queue@{queue}!get@{get}}
+\index{get@{get}!queue@{queue}}
+\subsubsection[{\texorpdfstring{get() const }{get() const }}]{\setlength{\rightskip}{0pt plus 5cm}int queue\+::get (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classqueue_abb246e03c3b40a8e78479ef6b488c847}{}\label{classqueue_abb246e03c3b40a8e78479ef6b488c847}
+Получение первого элемента очереди \begin{DoxyReturn}{Возвращает}
+Значение первого элемента очереди 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{queue_8h}{queue.\+h}\end{DoxyCompactItemize}
